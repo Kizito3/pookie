@@ -61,6 +61,7 @@
 
       .buttons {
         position: relative;
+        right: 60px;
         width: 100%;
         text-align: center;
         margin-top: 20px;
@@ -90,8 +91,7 @@
         background-color: #ccc;
         color: #333;
         position: absolute;
-        top: 0;
-        left: 400px;
+
         z-index: 2;
       }
 
@@ -113,10 +113,28 @@
         p {
           font-size: 1rem;
         }
+        .buttons {
+          right: 40px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
 
         button {
           font-size: 1rem;
           padding: 10px 20px;
+        }
+        button:nth-child(1) {
+          margin-right: 30px;
+        }
+        .no {
+          font-size: 1rem;
+          left: 200px;
+          padding-right: 10px;
+        }
+        .yes {
+          font-size: 1rem;
         }
       }
     </style>
